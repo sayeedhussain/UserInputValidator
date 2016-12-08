@@ -1,5 +1,5 @@
 # Validators
-A simple library to validate any kind of user inputs like Email, Name, Phone, OTP etc.
+A simple library to validate any kind of user input like Email, Name, Phone, OTP etc.
 
 # Credits
 To give credit where it's due, this library is based on ideas mentioned here http://hotcocoatouch.com/2016/11/16/composite-validators
