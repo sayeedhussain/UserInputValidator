@@ -7,38 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36162FF71DF93561000B03AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36162FF61DF93561000B03AC /* AppDelegate.swift */; };
-		36162FF91DF93561000B03AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36162FF81DF93561000B03AC /* ViewController.swift */; };
 		36162FFC1DF93561000B03AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36162FFA1DF93561000B03AC /* Main.storyboard */; };
 		36162FFE1DF93561000B03AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36162FFD1DF93561000B03AC /* Assets.xcassets */; };
 		361630011DF93561000B03AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36162FFF1DF93561000B03AC /* LaunchScreen.storyboard */; };
-		3616301C1DF93590000B03AC /* CompositeValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361630171DF93590000B03AC /* CompositeValidator.swift */; };
-		3616301D1DF93590000B03AC /* GenericValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361630181DF93590000B03AC /* GenericValidator.swift */; };
-		3616301E1DF93590000B03AC /* SpecificValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361630191DF93590000B03AC /* SpecificValidator.swift */; };
-		3616301F1DF93590000B03AC /* String+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3616301A1DF93590000B03AC /* String+Helpers.swift */; };
-		361630201DF93590000B03AC /* Validators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3616301B1DF93590000B03AC /* Validators.swift */; };
+		3621FD181E59971B00BCC0FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3621FD101E59971B00BCC0FB /* AppDelegate.swift */; };
+		3621FD191E59971B00BCC0FB /* CompositeValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3621FD121E59971B00BCC0FB /* CompositeValidator.swift */; };
+		3621FD1A1E59971B00BCC0FB /* GenericValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3621FD131E59971B00BCC0FB /* GenericValidator.swift */; };
+		3621FD1B1E59971B00BCC0FB /* SpecificValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3621FD141E59971B00BCC0FB /* SpecificValidator.swift */; };
+		3621FD1C1E59971B00BCC0FB /* String+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3621FD151E59971B00BCC0FB /* String+Helpers.swift */; };
+		3621FD1D1E59971B00BCC0FB /* Validators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3621FD161E59971B00BCC0FB /* Validators.swift */; };
+		3621FD1E1E59971B00BCC0FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3621FD171E59971B00BCC0FB /* ViewController.swift */; };
 		36F6F1EB1DF93FFB00ADFD6E /* ValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F6F1EA1DF93FFB00ADFD6E /* ValidatorTests.swift */; };
-		36F6F1F01DF9402D00ADFD6E /* CompositeValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361630171DF93590000B03AC /* CompositeValidator.swift */; };
-		36F6F1F11DF9403000ADFD6E /* GenericValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361630181DF93590000B03AC /* GenericValidator.swift */; };
-		36F6F1F21DF9403200ADFD6E /* SpecificValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361630191DF93590000B03AC /* SpecificValidator.swift */; };
-		36F6F1F31DF9403400ADFD6E /* Validators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3616301B1DF93590000B03AC /* Validators.swift */; };
-		36F6F1F41DF9403700ADFD6E /* String+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3616301A1DF93590000B03AC /* String+Helpers.swift */; };
 		36F6F1F61DF9597600ADFD6E /* GenericValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F6F1F51DF9597600ADFD6E /* GenericValidatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		36162FF31DF93560000B03AC /* SampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		36162FF61DF93561000B03AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		36162FF81DF93561000B03AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		36162FFB1DF93561000B03AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36162FFD1DF93561000B03AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		361630001DF93561000B03AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		361630021DF93561000B03AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		361630171DF93590000B03AC /* CompositeValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompositeValidator.swift; sourceTree = "<group>"; };
-		361630181DF93590000B03AC /* GenericValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericValidator.swift; sourceTree = "<group>"; };
-		361630191DF93590000B03AC /* SpecificValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificValidator.swift; sourceTree = "<group>"; };
-		3616301A1DF93590000B03AC /* String+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Helpers.swift"; sourceTree = "<group>"; };
-		3616301B1DF93590000B03AC /* Validators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validators.swift; sourceTree = "<group>"; };
+		3621FD101E59971B00BCC0FB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Classes/AppDelegate.swift; sourceTree = "<group>"; };
+		3621FD121E59971B00BCC0FB /* CompositeValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompositeValidator.swift; sourceTree = "<group>"; };
+		3621FD131E59971B00BCC0FB /* GenericValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericValidator.swift; sourceTree = "<group>"; };
+		3621FD141E59971B00BCC0FB /* SpecificValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificValidator.swift; sourceTree = "<group>"; };
+		3621FD151E59971B00BCC0FB /* String+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Helpers.swift"; sourceTree = "<group>"; };
+		3621FD161E59971B00BCC0FB /* Validators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validators.swift; sourceTree = "<group>"; };
+		3621FD171E59971B00BCC0FB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Classes/ViewController.swift; sourceTree = "<group>"; };
 		36F6F1E81DF93FFB00ADFD6E /* SampleProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F6F1EA1DF93FFB00ADFD6E /* ValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatorTests.swift; sourceTree = "<group>"; };
 		36F6F1EC1DF93FFB00ADFD6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -84,27 +79,52 @@
 		36162FF51DF93560000B03AC /* SampleProject */ = {
 			isa = PBXGroup;
 			children = (
-				361630161DF93590000B03AC /* Validators */,
-				36162FF61DF93561000B03AC /* AppDelegate.swift */,
-				36162FF81DF93561000B03AC /* ViewController.swift */,
-				36162FFA1DF93561000B03AC /* Main.storyboard */,
-				36162FFF1DF93561000B03AC /* LaunchScreen.storyboard */,
-				36162FFD1DF93561000B03AC /* Assets.xcassets */,
-				361630021DF93561000B03AC /* Info.plist */,
+				3621FD0F1E59957100BCC0FB /* Classes */,
+				3621FD0E1E59956200BCC0FB /* Supporting Files */,
+				3621FD0D1E59952C00BCC0FB /* Resources */,
 			);
 			path = SampleProject;
 			sourceTree = "<group>";
 		};
-		361630161DF93590000B03AC /* Validators */ = {
+		3621FD0D1E59952C00BCC0FB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				361630171DF93590000B03AC /* CompositeValidator.swift */,
-				361630181DF93590000B03AC /* GenericValidator.swift */,
-				361630191DF93590000B03AC /* SpecificValidator.swift */,
-				3616301B1DF93590000B03AC /* Validators.swift */,
-				3616301A1DF93590000B03AC /* String+Helpers.swift */,
+				36162FFA1DF93561000B03AC /* Main.storyboard */,
+				36162FFF1DF93561000B03AC /* LaunchScreen.storyboard */,
+				36162FFD1DF93561000B03AC /* Assets.xcassets */,
 			);
-			path = Validators;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3621FD0E1E59956200BCC0FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				361630021DF93561000B03AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3621FD0F1E59957100BCC0FB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3621FD111E59971B00BCC0FB /* Validators */,
+				3621FD101E59971B00BCC0FB /* AppDelegate.swift */,
+				3621FD171E59971B00BCC0FB /* ViewController.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		3621FD111E59971B00BCC0FB /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				3621FD121E59971B00BCC0FB /* CompositeValidator.swift */,
+				3621FD131E59971B00BCC0FB /* GenericValidator.swift */,
+				3621FD141E59971B00BCC0FB /* SpecificValidator.swift */,
+				3621FD151E59971B00BCC0FB /* String+Helpers.swift */,
+				3621FD161E59971B00BCC0FB /* Validators.swift */,
+			);
+			name = Validators;
+			path = Classes/Validators;
 			sourceTree = "<group>";
 		};
 		36F6F1E91DF93FFB00ADFD6E /* SampleProjectTests */ = {
@@ -166,6 +186,7 @@
 				TargetAttributes = {
 					36162FF21DF93560000B03AC = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					36F6F1E71DF93FFB00ADFD6E = {
@@ -218,13 +239,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3616301D1DF93590000B03AC /* GenericValidator.swift in Sources */,
-				361630201DF93590000B03AC /* Validators.swift in Sources */,
-				36162FF91DF93561000B03AC /* ViewController.swift in Sources */,
-				3616301F1DF93590000B03AC /* String+Helpers.swift in Sources */,
-				3616301C1DF93590000B03AC /* CompositeValidator.swift in Sources */,
-				36162FF71DF93561000B03AC /* AppDelegate.swift in Sources */,
-				3616301E1DF93590000B03AC /* SpecificValidator.swift in Sources */,
+				3621FD1C1E59971B00BCC0FB /* String+Helpers.swift in Sources */,
+				3621FD1A1E59971B00BCC0FB /* GenericValidator.swift in Sources */,
+				3621FD1D1E59971B00BCC0FB /* Validators.swift in Sources */,
+				3621FD191E59971B00BCC0FB /* CompositeValidator.swift in Sources */,
+				3621FD1E1E59971B00BCC0FB /* ViewController.swift in Sources */,
+				3621FD1B1E59971B00BCC0FB /* SpecificValidator.swift in Sources */,
+				3621FD181E59971B00BCC0FB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,11 +254,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				36F6F1F61DF9597600ADFD6E /* GenericValidatorTests.swift in Sources */,
-				36F6F1F11DF9403000ADFD6E /* GenericValidator.swift in Sources */,
-				36F6F1F01DF9402D00ADFD6E /* CompositeValidator.swift in Sources */,
-				36F6F1F41DF9403700ADFD6E /* String+Helpers.swift in Sources */,
-				36F6F1F21DF9403200ADFD6E /* SpecificValidator.swift in Sources */,
-				36F6F1F31DF9403400ADFD6E /* Validators.swift in Sources */,
 				36F6F1EB1DF93FFB00ADFD6E /* ValidatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,10 +375,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SampleProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.SampleProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -371,6 +389,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SampleProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.SampleProject";

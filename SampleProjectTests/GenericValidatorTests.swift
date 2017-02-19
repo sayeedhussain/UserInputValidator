@@ -22,7 +22,7 @@ class GenericValidatorTests: XCTestCase {
 
     func testValidateEmail_Nil() {
         
-        let validator = GenericValidator.sharedInstance.emailValidator()
+        let validator = GenericValidator().emailValidator()
         
         let result = validator.validate(nil)
         
@@ -33,7 +33,7 @@ class GenericValidatorTests: XCTestCase {
 
     func testValidateEmail_Empty() {
         
-        let validator = GenericValidator.sharedInstance.emailValidator()
+        let validator = GenericValidator().emailValidator()
         
         let result = validator.validate("")
 
@@ -44,7 +44,7 @@ class GenericValidatorTests: XCTestCase {
 
     func testValidateEmail_Spaces() {
         
-        let validator = GenericValidator.sharedInstance.emailValidator()
+        let validator = GenericValidator().emailValidator()
         
         let result = validator.validate("abc @gmail")
         
@@ -55,7 +55,7 @@ class GenericValidatorTests: XCTestCase {
 
     func testValidateEmail_Invalid() {
         
-        let validator = GenericValidator.sharedInstance.emailValidator()
+        let validator = GenericValidator().emailValidator()
         
         let result = validator.validate("abc@gmail")
         
@@ -66,7 +66,7 @@ class GenericValidatorTests: XCTestCase {
 
     func testValidateEmail_Valid() {
         
-        let validator = GenericValidator.sharedInstance.emailValidator()
+        let validator = GenericValidator().emailValidator()
         
         let result = validator.validate("abc@gmail.com")
         

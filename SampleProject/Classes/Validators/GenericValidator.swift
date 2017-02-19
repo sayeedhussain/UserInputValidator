@@ -10,9 +10,7 @@
  All generic Validators like email, phone etc reside here.
  */
 struct GenericValidator {
-    
-    static let sharedInstance = GenericValidator()
-    
+        
     func emailValidator() -> CompositeValidator {
         
         let field = "Email" //name of the field that will appear in the error message if validation fails.

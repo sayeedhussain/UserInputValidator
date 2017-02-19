@@ -22,7 +22,7 @@ class ViewController: UIViewController {
 
     @IBAction func submitBtnPressed() {
         
-        let validator = GenericValidator.sharedInstance.emailValidator()
+        let validator = GenericValidator().emailValidator()
         let result = validator.validate(emailTxtFld.text)
         
         if !result.success {//error

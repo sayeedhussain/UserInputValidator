@@ -10,9 +10,7 @@
  All app specific Validators like firstName, lastName, OTP etc. reside here.
  */
 struct SpecificValidator {
-    
-    static let sharedInstance = SpecificValidator()
-    
+        
     func passwordValidator() -> CompositeValidator {
         
         let field = "Password" //name of the field that will appear in the error message if validation fails.
