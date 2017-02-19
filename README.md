@@ -5,7 +5,7 @@ A simple library to validate any kind of user input like Email, Name, Phone, OTP
 To give credit where it's due, this library is based on ideas mentioned here http://hotcocoatouch.com/2016/11/16/composite-validators
 
 # Installation
-Download and import the source.
+Download zip and copy the /Validators folder into your project.
 
 # Usage
 
